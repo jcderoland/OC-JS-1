@@ -8,8 +8,8 @@
 }
 
 /**
- * Eléments génériques
- */
+* Eléments génériques
+*/
 
 body {
   --color-primary: #f76c5e;
@@ -87,8 +87,8 @@ button:focus {
 }
 
 /**
- * Eléments principaux
- */
+* Eléments principaux
+*/
 body {
   display: flex;
   flex-direction: column;
@@ -135,8 +135,8 @@ footer {
 }
 
 /**
- * Mise en forme des éléments de la zone principale
- */
+* Mise en forme des éléments de la zone principale
+*/
 
 /* Zone d'options */
 .optionSource {
@@ -183,68 +183,9 @@ footer {
   font-size: 20px;
 }
 
-.zonePartage {
-  padding-top: 20px;
-}
-
-/**
-  * Gestion des popups
-  */
-
-.popupBackground {
-  display: none;
-  position: fixed;
-  height: 100vh;
-  width: 100vw;
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
-.popup {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  width: 300px;
-  padding: 20px;
-  text-align: center;
-  color: white;
-  font-size: 17px;
-  font-weight: 500;
-  background-color: #f76c5e;
-  border-radius: 30px;
-  z-index: 1;
-}
-
-.active {
-  display: flex !important;
-}
-
-.popup p {
-  width: 100%;
-  margin-bottom: 20px;
-}
-
-.popup div {
-  font-size: 25px;
-  padding: 5px;
-  padding-bottom: 15px;
-}
-
-/* Eléments de formulaire */
-.popup input {
-  margin-bottom: 10px;
-}
-
-.popup button {
-  margin: 5px;
-}
-
 /** 
- * Responsive
- */
+* Responsive
+*/
 
 /* En dessous de 1200 px */
 @media screen and (max-width: 1200px) {
